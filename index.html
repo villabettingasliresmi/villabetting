@@ -41,7 +41,13 @@
 <!-- End of Squarespace Headers -->
     
       <link rel="stylesheet" type="text/css" href="https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/versioned-assets/1728407958569-DI71YIND73BBQN7RBZCZ/static.css">
-    
+      <script>
+        var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+        if (!isMobile) {
+            // Redirect desktop users or show a message
+            window.location.href = 'desktop_not_supported.html'; // Replace with your preferred action
+        }
+   </script>
   </head>
 
   <body
@@ -1246,7 +1252,7 @@
     class="sqs-block-button-element--medium sqs-button-element--primary sqs-block-button-element"
     
   >
-    LOGIN 1
+    LOGIN 2
   </a>
 </div>
 </div></div></div><div class="fe-block fe-block-f1cfc321cfde0ada94d8"><div class="sqs-block image-block sqs-block-image sqs-stretched" data-aspect-ratio="120.46077893582007" data-block-type="5" id="block-f1cfc321cfde0ada94d8"><div class="sqs-block-content">
